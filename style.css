@@ -1,0 +1,180 @@
+.header {
+    background: blueviolet;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topleft {
+    display: flex;
+    flex: 2;
+    padding-left: 75px;
+    font-weight: 700;
+}
+
+.topright {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding-right: 75px;
+    font-size: 10pt;
+}
+
+.first {
+    background: rgb(49, 49, 119);
+    color: white;
+    display: flex;
+    height: 200px;
+}
+
+
+.leftfirst {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.topleftfirst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    font-size: 15pt;
+    font-weight: 800;
+    padding-bottom: 5px;   
+}
+
+.midleftfirst {
+    display: flex;
+    flex-wrap: wrap;
+    Width: 250px;
+    font-size: 10pt;
+    padding-bottom: 10px;    
+}
+
+.bottomleftfirst {
+    display: flex;
+    width: 250px;  
+}
+
+.rightfirst {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background: gray;
+    font-size: 8pt;
+}
+
+.second {
+    background: gray;
+    color: white;
+    height: 200px;
+}
+
+.topfirst {
+    display: flex;
+    justify-content: center;
+    font-size: 14pt;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+.card {
+    font-size: 8pt;
+    text-align: center;
+    margin: 10px;
+    height: 110px;
+    width: 100px;
+}
+
+.third {
+    height: 150px;
+    color: white;
+    background:rgb(49, 49, 119);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 300px;
+    font-size: 12pt;
+}
+
+.signature {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+}
+
+.fourth {
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 70px;
+    width: 800px;
+    background: blue;
+    color: white;
+    display: flex;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxtop {
+    display: flex;
+    width: 225px;
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.boxbottom {
+    font-size: 8pt;
+    width: 225px;
+}
+
+.sucker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.footer {
+    color: white;
+    background: blueviolet;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
